@@ -1,1 +1,46 @@
-.hero { background-color: rgb(217, 217, 217); }
+.hero { 
+    font-size: 3rem;
+    background-color: rgb(255, 230, 188); 
+    transition: transform 0.3s ease;
+}
+
+.emotion-icon {
+    position: absolute;
+    font-size: 2.5rem;
+    transition: transform 0.3s ease;
+  }
+
+.hero .emotion-icon:nth-child(2) {
+    top: 0;
+    left: 50%;
+    font-size: 4rem;
+    transform: translateX(-50%) rotate(-10deg);
+  }
+  
+  .hero .emotion-icon:nth-child(3) {
+    left: 0;
+    top: 50%;
+    font-size: 10rem;
+    transform: translateY(-50%) rotate(15deg);
+  }
+  
+  .hero .emotion-icon:nth-child(4) {
+    right: 0;
+    top: 50%;
+    font-size: 8rem;
+    transform: translateY(-50%) rotate(-15deg);
+  }
+  
+  .hero .emotion-icon:nth-child(5) {
+    bottom: 0;
+    left: 50%;
+    font-size: 6rem;
+    transform: translateX(-50%) rotate(10deg);
+  }
+  
+  .hero .emotion-icon:nth-child(6) {
+    top: 20%;
+    font-size: 6rem;
+    right: 20%;
+    transform: rotate(-25deg);
+  }
