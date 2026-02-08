@@ -3,7 +3,7 @@ export default function Fear(): HTMLElement {
     div.classList.add("fear", "container");
     div.innerHTML = `
     <img class="screamer hidden" src="https://png.pngtree.com/png-vector/20240821/ourmid/pngtree-3d-smoky-horror-ghost-girl-on-transparent-background-png-image_13580492.png">
-    <p class="emotion_title">Fear</p>
+    <p class="emotion_title">Fear 😨</p>
     `;
 
     const observer = new IntersectionObserver((entries) => {
