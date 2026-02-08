@@ -1,0 +1,31 @@
+.sadness {
+    background-image: url("https://img.freepik.com/premium-photo/empty-dark-city-street-with-horror-atmosphere-night-scene-with-fog-without-people-generative-ai_779468-17627.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+     background-color: rgb(208, 239, 252); 
+}
+
+.rain-drops {
+    position: absolute;
+    top: 0%;
+    height: 180px;
+    width: 6px;
+    background: linear-gradient(70deg, #0fd0f2, transparent 70%);
+    rotate: -35deg;
+    translate: -350px 0px;
+    border-radius: 50px;
+    animation: fallingRain 0.5s linear forwards;
+}
+
+@keyframes fallingRain {
+    0% {
+      transform: translateY(0);
+      opacity: 0.3;
+    }
+    100% {
+      transform: translateY(120vh);
+      opacity: 0.1;
+    }
+}
