@@ -1,0 +1,21 @@
+.fear {
+    background-image: url("https://images3.alphacoders.com/142/142619.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(20, 20, 20); 
+}
+
+.screamer {
+    width: 50%;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}

@@ -2,13 +2,29 @@
 @import './css/hero.css';
 @import './css/sadness.css';
 @import './css/joy.css';
+@import './css/fear.css';
 @import './css/footer.css';
 
 .container {
   display: flex;
+  position: sticky;
+  top: 0;
   align-items: center;
   justify-content: center;
   min-height: 100svh;
+  z-index: 1;
+}
+
+.container:nth-child(2) { z-index: 1; }
+.container:nth-child(3) { z-index: 2; }
+.container:nth-child(4) { z-index: 3; }
+
+.emotion_title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(240, 248, 255, 0.459);
+  padding: 1rem 2rem;
 }
 
 
