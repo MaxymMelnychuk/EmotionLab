@@ -2,4 +2,6 @@
     padding: 2rem;
     background-color: black;
     color: white;
+    position: relative;
+    z-index: 10;
 }
